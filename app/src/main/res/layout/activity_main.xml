@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.stud.recyclerview.MainActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvLista"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <?xml version= "1.0" encoding= "utf-8" ?>
+    <LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+        xmlns:tools = "http://schemas.android.com/tools"
+        android:orientation= "vertical"
+        android:layout_width= "match_parent"
+        android:layout_height= "wrap_content"
+        android:padding= "8dp" >
+    <TextView
+        android:id= "@+id/tvNazwa"
+        android:layout_width= "match_parent"
+        android:layout_height= "wrap_content"
+        android:textSize= "18sp"
+        android:textColor= "@android:color/black"
+        tools:text= "Ziemia" />
+    <LinearLayout
+        android:layout_width= "match_parent"
+        android:layout_height= "wrap_content"
+        android:orientation= "horizontal" >
+    <TextView
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        android:layout_marginRight= "4dp"
+        android:text= "Rodzaj:" />
+    <TextView
+        android:id= "@+id/tvRodzaj"
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        tools:text= "skalista" />
+</LinearLayout >
+<LinearLayout
+android:layout_width= "match_parent"
+android:layout_height= "wrap_content"
+android:orientation= "horizontal" >
+<TextView
+    android:layout_width= "wrap_content"
+    android:layout_height= "wrap_content"
+    android:layout_marginRight= "4dp"
+    android:text= "Księżyce:" />
+<TextView
+    android:id= "@+id/tvKsiezyce"
+    android:layout_width= "wrap_content"
+    android:layout_height= "wrap_content"
+    tools:text= "1" />
+</LinearLayout >
+    </ LinearLayout >
+
+</LinearLayout>
